@@ -16,30 +16,28 @@ namespace newGame.Model
             Map.Init();
             player = new Woodman(Map.mapWidth / 2 * Map.mapCell, Map.mapWidth / 2 * Map.mapCell);
             CampFire.health = 1000;
-
-
         }
         public static void Update()
         {
             if (player.MoveU)
             {
                 player.MoveUp();
-                player.TakeWood();
+                player.Take();
             }
             if (player.MoveD)
             {
                 player.MoveDown();
-                player.TakeWood();
+                player.Take();
             }
             if (player.MoveR)
             {
                 player.MoveRight();
-                player.TakeWood();
+                player.Take();
             }
             if (player.MoveL)
             {
                 player.MoveLeft();
-                player.TakeWood();
+                player.Take();
             }
 
             if (CampFire.health > 0)

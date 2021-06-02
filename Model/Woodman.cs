@@ -117,7 +117,7 @@ namespace newGame
             }
         }
 
-        public void TakeWood()
+        public void Take()
         {
             if (Map.map[GetXC(), GetYC()].wood)
             {
@@ -149,7 +149,7 @@ namespace newGame
                 maxInventoty++;
             }
         }
-        public void PutWood(int direction)
+        public void Put(int direction)
         {
             switch (direction)
             {

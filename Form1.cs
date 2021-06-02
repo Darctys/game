@@ -144,7 +144,7 @@ namespace newGame
                         Game.player.MoveL = false;
                         Game.player.MoveR = false;
                         //Game.player.MoveUp();
-                        //Game.player.TakeWood();
+                        //Game.player.Take();
                     }
                     else
                     {
@@ -166,7 +166,7 @@ namespace newGame
                         Game.player.MoveL = false;
                         Game.player.MoveR = false;
                         //Game.player.MoveDown();
-                        //Game.player.TakeWood();
+                        //Game.player.Take();
                     }
                     else
                     {
@@ -188,7 +188,7 @@ namespace newGame
                         Game.player.MoveL = true;
                         Game.player.MoveR = false;
                         //Game.player.MoveLeft();
-                        //Game.player.TakeWood();
+                        //Game.player.Take();
 
                     }
                     else
@@ -211,7 +211,7 @@ namespace newGame
                         Game.player.MoveL = false;
                         Game.player.MoveR = true;
                         //Game.player.MoveRight();
-                        //Game.player.TakeWood();
+                        //Game.player.Take();
                     }
                     else
                     {
@@ -259,7 +259,7 @@ namespace newGame
                     Game.player.Cut(Game.player.direction);
                     break;
                 case Keys.L:
-                    Game.player.PutWood(Game.player.direction);
+                    Game.player.Put(Game.player.direction);
                    
                     break;
 
