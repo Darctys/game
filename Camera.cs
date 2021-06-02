@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace newGame
 {
-    class Field
+    class Camera
     {
-        private static bool tree { get; set; }
-
+        public int deltaX = 0;
+        public int deltaY = 0;
     }
 }

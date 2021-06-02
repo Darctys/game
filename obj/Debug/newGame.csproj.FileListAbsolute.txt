@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\newGame\obj\Debug\newGame.csprojAssemblyReference.cache
+C:\Users\User\source\repos\newGame\obj\Debug\newGame.Form1.resources
+C:\Users\User\source\repos\newGame\obj\Debug\newGame.Properties.Resources.resources
+C:\Users\User\source\repos\newGame\obj\Debug\newGame.csproj.GenerateResource.cache
+C:\Users\User\source\repos\newGame\obj\Debug\newGame.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\newGame\bin\Debug\newGame.exe.config
+C:\Users\User\source\repos\newGame\bin\Debug\newGame.exe
+C:\Users\User\source\repos\newGame\bin\Debug\newGame.pdb
+C:\Users\User\source\repos\newGame\obj\Debug\newGame.exe
+C:\Users\User\source\repos\newGame\obj\Debug\newGame.pdb
