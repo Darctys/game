@@ -257,7 +257,6 @@ namespace newGame
                     break;
                 case Keys.Space:
                     Game.player.Cut(Game.player.direction);
-                   
                     break;
                 case Keys.L:
                     Game.player.PutWood(Game.player.direction);
@@ -432,17 +431,17 @@ namespace newGame
             }
         }
 
-        private void label1_Click(object sender, MouseEventArgs e)
-        {
-          Init();
-        }
+        //private void label1_Click(object sender, MouseEventArgs e)
+        //{
+        //  Init();
+        //}
 
        
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-            label2.Text = Game.player.GetY().ToString();
-        }
+        //private void label2_Click(object sender, EventArgs e)
+        //{
+        //    label2.Text = Game.player.GetY().ToString();
+        //}
 
         
     }

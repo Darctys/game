@@ -9,7 +9,7 @@ namespace newGame.Model
     static class Game
     {
         public static Woodman player;
-        public static CampFire CampFire;
+        
 
         public static void Init()
         {
